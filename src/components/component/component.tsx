@@ -25,6 +25,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 import Link from "next/link"
 import { ClerkProvider, SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
+import React from 'react';
 
 export function Component() {
   return (
@@ -234,7 +235,7 @@ export function Component() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
