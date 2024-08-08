@@ -102,7 +102,7 @@ export function Component() {
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Ez-Board is designed to help you and your team stay organized, collaborate effectively, and deliver
-                  projects on time. With its intuitive interface and powerful features, you'll be able to manage your
+                  projects on time. With its intuitive interface and powerful features, you&aposll be able to manage your
                   tasks, track progress, and communicate seamlessly.
                 </p>
               </div>
