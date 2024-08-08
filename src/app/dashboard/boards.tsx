@@ -23,7 +23,6 @@ type PreboardsProps = {
 };
 
 function Preboards({ boardlinks }: PreboardsProps) {
-    const boardlinks = props.boardlinks
     const preboards = boardlinks.map((board, index) => (
         <Card key={board.id}>
             <CardContent>
