@@ -255,7 +255,7 @@ function MountainIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function XIcon(props) {
+function XIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
