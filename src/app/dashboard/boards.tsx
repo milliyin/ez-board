@@ -7,13 +7,22 @@ import {
     CardTitle,
   } from "@/components/ui/card"
 
-const boardlinks = [
+const boardlinks: BoardLink[] = [
     { id: 1, link: "b-222" },
     { id: 2, link: "b-226" },
     { id: 3, link: "b-227" }
-]
+];
 
-function Preboards(props) {
+type BoardLink = {
+    id: number;
+    link: string;
+};
+
+type PreboardsProps = {
+    boardlinks: BoardLink[];
+};
+
+function Preboards({ boardlinks }: PreboardsProps) {
     const boardlinks = props.boardlinks
     const preboards = boardlinks.map((board, index) => (
         <Card key={board.id}>
